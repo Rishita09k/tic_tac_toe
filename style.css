@@ -11,16 +11,14 @@ body{
 
 .container{
     height: 70hv;
+    margin: 25px;
+}
    
-margin: 25px;}
-   
-
 .game{
     display:grid;
    grid-template-rows: repeat(3,12vw);
    grid-template-columns: repeat(3,12vw);
-   justify-content: center; 
-   
+   justify-content: center;   
 }
 
 .box{
@@ -29,7 +27,7 @@ margin: 25px;}
     font-size:x-large;
 }
 
-#resetBtn{
+#resetBtn,#newBtn{
     font-size:1.25rem;
     padding: 1rem;
     background-color: black;
@@ -37,19 +35,11 @@ margin: 25px;}
     color:bisque;
 }
 
-#newBtn{
-    font-size:1.25rem;
-    padding: 1rem;
-    background-color: black;
-    border-radius: 1rem;
-    color:bisque;}
-
 #msg{
     font-size: 3.5rem;
     padding: 1rem;
     border-radius: 1rem;
     color:rgb(176, 31, 31);
-
 }
 
 .hide{display: none;}
